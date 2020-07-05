@@ -1,0 +1,8 @@
+# mocket
+**/*.psd
+
+# ide/editor
+.idea
+
+# node modules
+node_modules
