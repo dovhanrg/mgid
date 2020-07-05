@@ -15,7 +15,7 @@
       <div class="container">
         <div class="header__top">
           <div class="header__logo-link">
-            <a href="#layout" class="logo-link">layout</a>
+            <a href="/" class="logo-link">layout</a>
           </div>
           <nav class="header__nav">
             <a href="#html" class="header__link">html</a>
@@ -32,40 +32,73 @@
       </div>
     </header>
     <main class="main">
-      <div class="container">
-        <div class="main__description">
-          <div class="main__article">
-            <h1 class="main__title">Something about you</h1>
-            <div class="main__text">
-              <p>
-                In this section, you can specify any information about yourself, insert your photos, your interests and
-                skills. It is also desirable to use tag canvas.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
-                quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-                nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-              </p>
+      <div class="main__description">
+        <div class="container">
+          <div class="main__description-wrapper">
+            <div class="main__article">
+              <h1 class="main__title">Something about you</h1>
+              <div class="main__text">
+                <p>
+                  In this section, you can specify any information about yourself, insert your photos, your interests
+                  and
+                  skills. It is also desirable to use tag canvas.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                  et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip
+                  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                  eu
+                  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
+                  quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                  aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+                  nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                  velit,
+                  sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                </p>
+              </div>
+            </div>
+            <div class="main__foto">
+              <figure class="main-photo">
+                <figcaption class="main-photo__title">Your photo</figcaption>
+                <img class="main-photo__img" src="img/shutterstock_120223771.png" alt="">
+              </figure>
             </div>
           </div>
-          <div class="main__foto"></div>
         </div>
-        <div class="main__form">
-          <form action="" class="form"></form>
+      </div>
+      <div class="main__form">
+        <div class="container form-wrapper">
+          <form action="" class="form">
+            <h2 class="form__title">Register</h2>
+            <div class="form__input-wrapper">
+              <input placeholder="Email" type="email" class="form__input">
+            </div>
+            <div class="form__input-wrapper">
+              <input placeholder="Password" type="password" class="form__input">
+            </div>
+            <div class="form__input-wrapper">
+              <select class="form__select" name="" id="">
+                <option class="form__option" value="country">Country</option>
+                <option class="form__option" value="country 1">Country 1</option>
+                <option class="form__option" value="country 2">Country 2</option>
+                <option class="form__option" value="country 3">Country 3</option>
+              </select>
+            </div>
+            <button class="button form__button">Enter</button>
+          </form>
         </div>
       </div>
     </main>
     <footer class="footer">
       <div class="container">
         <div class="footer__rights">
-          &copy; 2015 layout
+          <span>
+            &copy; 2015 layout
+          </span>
         </div>
       </div>
     </footer>
